@@ -48,10 +48,59 @@
           <p>globe</p>
         </div>
         <div class="tab-pane fade" id="msg">
-          <p>msg</p>
+          <p>Nachrichten</p>
+          .speech-bubble {
+	            position: relative;
+	            background: #c0c0c0;
+	            border-radius: .4em;
+              }
+
+              .speech-bubble:after {
+	            content: '';
+	            position: absolute;
+	            left: 0;
+	            top: 50%;
+	            width: 0;
+	            height: 0;
+	            border: 20px solid transparent;
+	            border-right-color: #c0c0c0;
+	            border-left: 0;
+	            border-top: 0;
+	            margin-top: -10px;
+	            margin-left: -20px;
+              }
+          
+          .speech-bubble {
+            position: relative;
+            background: #c0c0c0;
+            border-radius: .4em;
+            }
+
+          .speech-bubble:after {
+            content: '';
+            position: absolute;
+            right: 0;
+            top: 50%;
+            width: 0;
+            height: 0;
+            border: 20px solid transparent;
+            border-left-color: #c0c0c0;
+            border-right: 0;
+            border-top: 0;
+            margin-top: -10px;
+            margin-right: -20px;
+          }
+          
         </div>
         <div class="tab-pane fade" id="settings">
-          <p>settings</p>
+          <p><h1>Einstellungen</h1></p>
+          <p>Bezahlmethode: Standard</p>
+          <p>Sprache: Deutsch</p>
+          <p>Dark Mode: Off</p>
+          <p>Supportanfrage</p>
+          <p>Impressum</p>
+
+          
         </div>
       </div>
       <ul id="myTab-kv-22" class="nav nav-tabs foot" role="tablist">
